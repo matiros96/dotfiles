@@ -1,0 +1,3 @@
+dev:/dev/i2c-8
+dev:/dev/i2c-7
+dev:/dev/i2c-6
