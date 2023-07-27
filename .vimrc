@@ -11,23 +11,22 @@ set number
 nmap j gj
 nmap k gk
 
-""" 3. Vim Appearance.
-" Search settings"
-set hlsearch " hilight"
+"""" 3. Vim Appearance.
+" Search settings
+set hlsearch " hilight
 set incsearch " jump to best fit
-"Set 8 lines to the cursor - when moving vertically using j/k
+" Set 8 lines to the cursor - when moving vertically using j/k
 set scrolloff=8
 " Turn off seach hilighting with <CR>.
 nnoremap <CR> :nohlsearch<CR><CR>
- " Tab settings
- set autoindent
- set smartindent
- set tabstop=4 softtabstop=4
- set shiftwidth=4
- " Make statusline appear even with only single window.
- set laststatus=2
- " Numbers
- set relativenumber
- set number
- set hidden
- set noerrorbells       
+" Tab settings
+set autoindent
+set smartindent
+set expandtab
+" Make statusline appear even with only single window.
+set laststatus=2
+" Numbers
+set relativenumber
+set number
+set hidden
+set noerrorbells
